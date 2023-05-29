@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem  10rem;
+    background-color: hsl(204, 43%, 93%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.primeiro {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 610px;
+    padding: 2rem;
+}
+
+
+.dois-tres {
+    display: flex;
+    text-align: left;
+}
+
+.dois {
+    background-color: hsl(179, 62%, 53%);
+    border-radius: 0 0 0 0.5rem;
+    width: 305px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.tres {
+    background-color: hsl(179, 62%, 63%);
+    border-radius: 0 0 0.5rem 0;
+    width: 305px;
+    padding: 2rem;
+}
+
+.titulo {
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 1rem;
+}
+
+.sub-titulo {
+    color: hsl(204, 43%, 93%);
+    padding-bottom: 1rem;
+}
+
+.atencao {
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 1rem;
+}
+
+.value {
+    color: white;
+    padding-bottom: 1rem;
+    font-size: xx-large;
+}
+
+.price-month {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.month {
+    color: hsl(218, 22%, 90%);
+}
+
+.full {
+    color: hsl(204, 43%, 93%);
+    padding-bottom: 1rem;
+}
+
+.sing {
+    width: 100%;
+    padding: 1rem;
+    border-style: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: large;
+    background-color: hsl(71, 73%, 54%);
+    cursor: pointer;
+}
+
+.infos {
+    color:hsl(218, 22%, 67%);
+}
+
+.infos-why-us {
+    color: hsl(204, 43%, 93%);
+    line-height: 150%;
+}
