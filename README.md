@@ -14,7 +14,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ## Overview
 
-A Frontend Mentor project to replicate a given design of a QR code graphic with only CSS and HTML.
+A Frontend Mentor project to replicate a given design with only CSS and HTML.
 
 ### The challenge
 
